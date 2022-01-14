@@ -1,0 +1,96 @@
+.liste {
+    display:flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 100vh;
+}
+.filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: gray;
+}
+.model{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.movie{
+    background-color:white;
+}
+.content{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 1rem;
+    transform: translateY(130%);
+    transition: transform 0.3s ease-in-out;
+    overflow: auto;
+    max-height: 100%;
+    margin-bottom: 35px;
+}
+.ggg:hover .content{
+    transform: translateY(0%);
+}
+.desc{
+display: flex;
+background-color: gray;
+height: 100vh;
+justify-content: space-around;
+align-items: center;
+
+}
+.picture{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+@media screen and (max-width:300px) {
+    .filter{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .filter{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .liste{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+            }
+    
+}
+@media screen and (max-width:1000px) {
+    .liste{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+    }
+}
+@media screen and (max-width:850px) {
+    .liste{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+    }
+}
+@media screen and (max-width:650px) {
+    .liste{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+    }
+}
